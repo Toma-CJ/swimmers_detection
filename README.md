@@ -1,5 +1,6 @@
 # Setup
 
+
 Install the requirements. If some are missing, don't hesitate to add them to the list.  
 The project has originally been done in python 3.8
 
@@ -22,8 +23,8 @@ In the "trainer.py" file, you face this :
 
 First choose the path to the data: train and test images and heatmaps:
 ```python
-train_img_path = '/home/nicolas/swimmers_tracking/extractions/labelled_images/train' # the directory containing your training images  
-test_img_path = '/home/nicolas/swimmers_tracking/extractions/labelled_images/test' # the directory containing your test images  
+train_img_path = './swimmers_tracking/extractions/labelled_images/train' # the directory containing your training images  
+test_img_path = './swimmers_tracking/extractions/labelled_images/test' # the directory containing your test images  
 out_path = '../dataset/general/yes_smooth' # the directory containing your training data (heatmaps with the name of the original image)  
 test_out_path = '../dataset/general/yes_smooth' # the directory containing your training data (heatmaps with the name of the original image)
 ```

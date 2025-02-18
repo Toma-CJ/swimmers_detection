@@ -18,21 +18,22 @@ if __name__=='__main__' :
     torch.cuda.empty_cache()
     # writer = SummaryWriter('runs/training')
 
-    train_img_path =    '/home/nicolas/swimmers_tracking/extractions/labelled_images/train'
-    test_img_path =     '/home/nicolas/swimmers_tracking/extractions/labelled_images/test'
-    # out_path =          '/home/nicolas/unsupervised-detection/dataset/general/yes_hardEdges'
-    # test_out_path =     '/home/nicolas/unsupervised-detection/dataset/general/yes_hardEdges'
-    out_path =          '/home/nicolas/unsupervised-detection/dataset/general/yes_hardBox/'
-    test_out_path =     '/home/nicolas/unsupervised-detection/dataset/general/yes_hardBox'
-    # model = Unet_like().cuda()
-    model = deeper_Unet_like().cuda()
+    train_img_path =    'C:/Users/tchar/Documents/GitHub/swimmers_detection/swimmers_tracking/extractions/labelled_images/train/'
+    test_img_path =     './swimmers_tracking/extractions/labelled_images/test/'
+    # out_path =          './unsupervised-detection/dataset/general/yes_hardEdges'
+    # test_out_path =     './unsupervised-detection/dataset/general/yes_hardEdges'
+    out_path =          './dataset/general'
+    test_out_path =     './dataset/general'
+    #model = Unet_like().cuda()
+    model = Unet_like()
+    #model = deeper_Unet_like().cuda()
     batch_size = 16
-    models_path = './hardBox/'
-    model_prefix = ''
+    models_path = './models/'
+    model_prefix = 'workyoulittleshit'
     epochs_already_trained = 0
 
-    # train_img_path = '/home/nicolas/swimmers_tracking/extractions/unlabelled and train images'
-    # test_img_path = '/home/nicolas/swimmers_tracking/extractions/labelled_images/test'
+    # train_img_path = './swimmers_tracking/extractions/unlabelled and train images'
+    # test_img_path = './swimmers_tracking/extractions/labelled_images/test'
     # out_path = '../dataset/general/pseudo_yes and yes'
     # test_out_path = '../dataset/general/yes_smooth'
     # model = Unet_like().cuda()

@@ -48,7 +48,7 @@ if __name__=='__main__':
     path = 'yes_'+str(epochs)+'epochs.pth'
     model_path = os.path.join(models_path, path)
 
-    full_images_path = '/home/nicolas/swimmers_tracking/extractions/unlabelled_images'
+    full_images_path = './swimmers_tracking/extractions/unlabelled_images'
     out_path = '../dataset/general/pseudo_yes'
 
     size = (512, 512)

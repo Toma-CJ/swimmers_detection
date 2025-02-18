@@ -12,8 +12,8 @@ from blobs_utils import get_last_batch_mAP, get_last_batch_mAR, get_last_batch_m
 if __name__=='__main__' :
     torch.cuda.empty_cache()
 
-    test_img_path = '/home/nicolas/swimmers_tracking/extractions/labelled_images/test'
-    test_out_path = '/home/nicolas/unsupervised-detection/dataset/general/yes_hardEdges'
+    test_img_path = './swimmers_tracking/extractions/labelled_images/test'
+    test_out_path = './unsupervised-detection/dataset/general/yes_hardEdges'
     batch_size = 64
     models_path = './softBlob/'
     # models_path = './models/'

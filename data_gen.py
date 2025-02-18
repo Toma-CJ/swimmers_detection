@@ -105,11 +105,11 @@ def get_and_adapt_general_data(path):
 #     return data
 
 if __name__ == '__main__':
-    path = '/home/nicolas/swimmers_tracking/extractions/labels_pickle/dataframe_bboxes.pkl'
+    path = './swimmers_tracking/extractions/labels_pickle/dataframe_bboxes.pkl'
 
-    img_repo = '/home/nicolas/swimmers_tracking/extractions/labelled_images/both/'
+    img_repo = './swimmers_tracking/extractions/labelled_images/both/'
 
-    positives_path = '/home/nicolas/unsupervised-detection/dataset/general/yes_softBox/'
+    positives_path = './unsupervised-detection/dataset/general/yes_softBox/'
     # importance_path = '/home/amigo/Bureau/data/video_for_extracting/importance'
 
     if not os.path.isdir(positives_path) : os.mkdir(positives_path)

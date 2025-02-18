@@ -31,9 +31,9 @@ def generate_expected_out(reverse_mask, expected_output, out) :
 
 if __name__=='__main__' :
     # img_path = '/home/amigo/Bureau/data/video_for_extracting/renaud+nicolas_images'
-    img_path = '/home/nicolas/swimmers_tracking/extractions/labelled_images/train'
+    img_path = './swimmers_tracking/extractions/labelled_images/train'
     # out_path = '/home/amigo/Bureau/data/video_for_extracting/renaud+nicolas_heatmaps'
-    out_path = '/home/nicolas/unsupervised-detection/dataset/general/yes_hardEdges'
+    out_path = './unsupervised-detection/dataset/general/yes_hardEdges'
     size = (256, 256)
 
     train_dataloader = get_train_test_dataloaders(img_path, out_path, size, batch_size=1, train_test_ratio=1, augment_data=False, shuffle=False)

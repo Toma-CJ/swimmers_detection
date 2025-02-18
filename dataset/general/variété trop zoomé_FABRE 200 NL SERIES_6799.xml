@@ -1,0 +1,50 @@
+<annotation>
+	<folder>to_label</folder>
+	<filename>variété trop zoomé_FABRE 200 NL SERIES_6799.jpg</filename>
+	<path>C:/Users/tchar/Documents/GitHub/swimmers_detection/swimmers_tracking/extractions/labelled_images/train/variété trop zoomé_FABRE 200 NL SERIES_6799.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>swimmerw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>122</xmin>
+			<ymin>545</ymin>
+			<xmax>267</xmax>
+			<ymax>611</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>swimmerw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>250</xmin>
+			<ymin>481</ymin>
+			<xmax>678</xmax>
+			<ymax>544</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>swimmerw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>733</xmin>
+			<ymin>413</ymin>
+			<xmax>879</xmax>
+			<ymax>484</ymax>
+		</bndbox>
+	</object>
+</annotation>

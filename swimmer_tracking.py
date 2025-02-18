@@ -104,10 +104,10 @@ if __name__=='__main__':
 
     # full_images_path = '../../PhD_HPE/data/images/2_blackmagic_videos/high_rez_breaststroke'
     # full_images_path = '../../PhD_HPE/data/images/2_blackmagic_videos/high_rez_crawl'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/Gwangju_frames'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/Angers19_frames'
-    full_images_path = '/home/nicolas/swimmers_tracking/extractions/Rennes19_frames'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/TITENIS_frames'
+    # full_images_path = './swimmers_tracking/extractions/Gwangju_frames'
+    # full_images_path = './swimmers_tracking/extractions/Angers19_frames'
+    full_images_path = './swimmers_tracking/extractions/Rennes19_frames'
+    # full_images_path = './swimmers_tracking/extractions/TITENIS_frames'
 
     video_name = get_video_name(epochs, full_images_path)
     video_path_heatmap = './videos/' + video_name

@@ -91,13 +91,13 @@ if __name__=='__main__':
     # models_path = './student_models/'
     models_path = './models/'
 
-    full_images_path = '/home/nicolas/swimmers_tracking/extractions/Gwangju_frames'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/Angers19_frames'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/Rennes19_frames'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/TITENIS_frames'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/50_dos_dames_finaleA_f122020'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/50_brasse_dames_finaleA_f122020_droite'
-    # full_images_path = '/home/nicolas/swimmers_tracking/extractions/50_brasse_dames_finaleA_f122020_gauche'
+    full_images_path = './swimmers_tracking/extractions/Gwangju_frames'
+    # full_images_path = './swimmers_tracking/extractions/Angers19_frames'
+    # full_images_path = './swimmers_tracking/extractions/Rennes19_frames'
+    # full_images_path = './swimmers_tracking/extractions/TITENIS_frames'
+    # full_images_path = './swimmers_tracking/extractions/50_dos_dames_finaleA_f122020'
+    # full_images_path = './swimmers_tracking/extractions/50_brasse_dames_finaleA_f122020_droite'
+    # full_images_path = './swimmers_tracking/extractions/50_brasse_dames_finaleA_f122020_gauche'
     # full_images_path = '/home/amigo/Documents/Neptune/FFN_tool/2021_Nice_brasse_50_finaleA_dames/images/left'
 
     ################# DON'T TOUCH BEYOND THIS POINT ####################

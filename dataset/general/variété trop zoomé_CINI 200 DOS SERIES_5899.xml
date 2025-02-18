@@ -1,0 +1,50 @@
+<annotation>
+	<folder>to_label</folder>
+	<filename>variété trop zoomé_CINI 200 DOS SERIES_5899.jpg</filename>
+	<path>C:/Users/tchar/Documents/GitHub/swimmers_detection/swimmers_tracking/extractions/labelled_images/train/variété trop zoomé_CINI 200 DOS SERIES_5899.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1600</width>
+		<height>900</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>swimmerw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>490</xmin>
+			<ymin>453</ymin>
+			<xmax>890</xmax>
+			<ymax>544</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>swimmerw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>710</xmin>
+			<ymin>265</ymin>
+			<xmax>981</xmax>
+			<ymax>365</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>swimmerw</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1110</xmin>
+			<ymin>41</ymin>
+			<xmax>1334</xmax>
+			<ymax>89</ymax>
+		</bndbox>
+	</object>
+</annotation>
