@@ -15,7 +15,7 @@ class Yes_Dataloader(Dataset) :
         self.transform = self.get_transform()
         self.augment_data = augment_data
         self.size = size
-
+        print("IMPATH", img_path)
         yes_img = os.listdir(img_path)
         yes_img = [os.path.join(img_path, f) for f in yes_img]
         yes_img.sort()
@@ -39,6 +39,7 @@ class Yes_Dataloader(Dataset) :
         img = io.imread(img_path)
 
         img_name = img_path.split('/')[-1]
+        print("HERE", self.yes_out.keys())
         out_name = self.yes_out[img_name]
         out = io.imread(out_name)
 

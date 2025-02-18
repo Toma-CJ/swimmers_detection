@@ -19,7 +19,7 @@ if __name__=='__main__' :
     # writer = SummaryWriter('runs/training')
 
     train_img_path =    'C:/Users/tchar/Documents/GitHub/swimmers_detection/swimmers_tracking/extractions/labelled_images/train/'
-    test_img_path =     './swimmers_tracking/extractions/labelled_images/test/'
+    test_img_path =     'C:/Users/tchar/Documents/GitHub/swimmers_detection/swimmers_tracking/extractions/labelled_images/test/'
     # out_path =          './unsupervised-detection/dataset/general/yes_hardEdges'
     # test_out_path =     './unsupervised-detection/dataset/general/yes_hardEdges'
     out_path =          './dataset/general'
